@@ -19,7 +19,7 @@ export default function SingleProduct({data}) {
             <section className="content-prod">
               <h2>{show.show.name}</h2>
               <br/>
-              <h5>Rating: {show.show.rating.average}</h5> 
+              <h5>Rating: {show.show.rating.average ? show.show.rating.average : 8}</h5> 
               <br />
                <p className="description"><b> {show.show.summary}</b></p> 
                <p>
