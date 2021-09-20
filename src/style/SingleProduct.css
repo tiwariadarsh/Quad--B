@@ -1,0 +1,30 @@
+  
+.show-center {
+    display: grid;
+    height: 100vh;
+    background-color:paleturquoise;
+  }
+  
+  .description {
+    line-height: 2;
+    max-width: 45em;
+    color: black;
+    font-size: 1.1rem;
+  }
+  
+  span {
+    font-weight: 700;
+  }
+  
+  @media (min-width: 992px) {
+    .show-center {
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+    }
+    
+  }
+
+  .link-detail {
+color: blue;
+width: 6rem;
+  }
