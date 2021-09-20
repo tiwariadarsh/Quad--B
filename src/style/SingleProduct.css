@@ -1,8 +1,9 @@
   
 .show-center {
     display: grid;
-    height: 100vh;
-    background-color:paleturquoise;
+    min-height: 100vh;
+    height: 100%;
+    background-color:wheat;
   }
   
   .description {
