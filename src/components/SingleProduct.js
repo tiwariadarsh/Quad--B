@@ -15,7 +15,7 @@ export default function SingleProduct({data}) {
             {temp.map((show) => {
         return (
           <div className="show-center" key={show.show.id}>
-            <img className="show-photo" src={show.show.image.medium} alt={show.show.name} style={{height:"70vh",width:"50vh",marginLeft:"2.6rem",marginRight:"2rem"}} />
+            <img className="show-photo" src={show.show.image.medium} alt={show.show.name} style={{height:"70vh",width:"70%",marginLeft:"2.6rem",marginRight:"2rem"}} />
             <section className="content-prod">
               <h2>{show.show.name}</h2>
               <br/>
